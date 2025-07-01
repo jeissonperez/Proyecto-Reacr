@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #e2e2e2;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;    
+}
+
+li {
+   margin-right: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav{
+    background-color: #175B73;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 15px;
+      align-items: center;
+}
+
+.imagen {
+    width: 57%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inicio {
+    background-color: #88CAE4;
+}
+
