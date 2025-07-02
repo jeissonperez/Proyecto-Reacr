@@ -7,35 +7,98 @@ body {
 }
 
 ul {
-    display: flex;
-    list-style: none;    
+  display: flex;
+  list-style: none;
 }
 
 li {
-   margin-right: 3%;
+  margin-right: 3%;
 }
 
 a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
 
-nav{
-    background-color: #175B73;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      font-size: 15px;
-      align-items: center;
+nav {
+  background-color: #175b73;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+  align-items: center;
 }
 
 .imagen {
-    width: 57%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 57%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .inicio {
-    background-color: #88CAE4;
+  background-color: #88cae4;
 }
 
+.imgBlog {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.blogs {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 4%;
+  background-image: url(https://img.freepik.com/vector-gratis/numeros-que-caen-digitales-codigo-binario-estilo-matrix-fondo-azul_1017-37387.jpg?semt=ais_hybrid&w=740);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 69vh;
+}
+
+.blog1,
+.blog2,
+.blog3 {
+  background-color: #175b73;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-right: 70px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  padding: 5%;
+}
+
+.quienesSomosFondo {
+  background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3JhbWFjaW9ufGVufDB8fDB8fHww);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+
+.quienesSomos {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  background-color: #f3f3f3;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quienesSomos h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.quienesSomos p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
